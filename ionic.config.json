@@ -1,0 +1,7 @@
+{
+  "name": "ta05-01",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
