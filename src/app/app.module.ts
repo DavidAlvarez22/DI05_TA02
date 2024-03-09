@@ -6,6 +6,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TablePipePipe } from './pipes/table-pipe.pipe';
 
 @NgModule({
   declarations: [AppComponent],

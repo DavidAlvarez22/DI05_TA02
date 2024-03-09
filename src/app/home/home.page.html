@@ -1,3 +1,32 @@
+<!--<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Visualización de Datos
+    </ion-title>
+  </ion-toolbar>
+  <ion-button (click)="generarPDF()">Generar PDF</ion-button>
+</ion-header>
+
+<ion-content>
+  <div #container>
+    <div class="dashboard-content">
+      <div class="seccion header">
+        <h1>Dashboard</h1>
+      </div>
+
+      <div class="seccion list-container">
+        <h2>List</h2>
+        <ul *ngFor="let lista of datosLista">
+          <li>{{lista}}</li>
+        </ul>
+      </div>
+      <div class=" seccion table-container">
+        <h2 class="seccion">Table</h2>
+        <app-tablas [datosTabla]="datosTablaTab1"></app-tablas>
+      </div>
+    </div>
+  </div>
+</ion-content>-->
 <ion-header>
   <ion-toolbar color="primary">
     <ion-title>
@@ -23,6 +52,12 @@
       <div class="table-container">
         <h2 class="seccion">Table</h2>
         <app-tablas [datosTabla]="datosTablaTab1"></app-tablas>
+      </div>
+      <div class="seccion list-container">
+        <h2>List</h2>
+        <ul *ngFor="let lista of datosLista">
+          <li>{{lista}}</li>
+        </ul>
       </div>
     </div>
   </div>
